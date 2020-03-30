@@ -1,2 +1,2 @@
-* To run tests run `ava src`
-* To run the app `node src/index.js`
+* To run tests run `npm test`
+* To run the app `npm start`
