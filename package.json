@@ -4,7 +4,7 @@
   "description": "Node.js example server starter project",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "ava src"
+    "test": "ava src/*.test.js"
   },
   "dependencies": {
     "ava": "^3.5.2",
