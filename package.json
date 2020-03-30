@@ -1,0 +1,20 @@
+{
+  "name": "ink-regions-demo",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "dependencies": {
+    "ava": "^3.5.2",
+    "balanced-match": "^1.0.0",
+    "chalk": "^3.0.0",
+    "import-jsx": "^4.0.0",
+    "ink": "^2.7.1",
+    "ink-testing-library": "^1.0.3",
+    "re-template-tag": "^2.0.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
