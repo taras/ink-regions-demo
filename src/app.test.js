@@ -8,6 +8,6 @@ const App = importJSX("./app");
 test("finds multiple elements", t => {
   const { lastFrame } = render(App);
 
-  t.is(findOne("subject", lastFrame(), chalk.blue("World")));
+  t.is(findOne("name", lastFrame(), chalk.blue("World"));
   t.is(findOne("greeting", lastFrame()), chalk.red("Hello"));
 });
