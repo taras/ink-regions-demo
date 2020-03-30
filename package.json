@@ -2,7 +2,10 @@
   "name": "ink-regions-demo",
   "version": "1.0.0",
   "description": "Node.js example server starter project",
-  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "ava src"
+  },
   "dependencies": {
     "ava": "^3.5.2",
     "balanced-match": "^1.0.0",
