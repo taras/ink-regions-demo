@@ -17,6 +17,8 @@ test("retrieves multiple regions", t => {
   t.deepEqual(findAll("greeting", lastFrame()), ["Hello", "World"]);
 });
 
+// this test fails because unstable_transformChildren is not the correct mechanism
+// I need something that would only wrap around all children not each child
 test.skip("supports color", t => {
   const { lastFrame } = render(color);
 
